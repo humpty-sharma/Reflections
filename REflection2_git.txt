@@ -1,0 +1,14 @@
+open git bash>go to directory where ur project files are kept and initialize a git repo
+
+git init command to initialize a repo
+
+git status to know the status of repo
+
+git repo works like smthing this:
+
+
+working directory					staging area									git repo
+	
+here are the files in				it is stage in b/w repo and working directory					here files are stored after commits are done
+coneventional way as we knw			here we add files first and added files makes one 
+						commit together	
