@@ -1,0 +1,31 @@
+for mac/linux command for comparing files is diff 
+		and the differences are denoted with lines starting with '-' or '+' sign that indicates lines that are 
+		removed or added from/to old vrsion
+for windows command for comparing files is fc(files compare)
+
+
+
+commit :
+		its a user given comment telling about the change he made in newer version
+
+git's saving frequency is upto commit ie whenever a commit is done git saves the new version automatically
+
+
+commits should be done just at right time.commits should not be too big and also not too small. Every commit should have a single logical purpose.
+ 
+git saves all the dat/files/project in a space called repository(repo)
+
+git works like a camera. Whenever you do a commit it takes screenshot of ur repo(that includes all of ur files related to project)
+while other models like google doc takes one file at a time
+
+git clone to clone a repo from one system to other...in cloning all the history is loaded while in simply copying history is not loaded
+
+to load a repo in system the command is cd xyz
+
+git log to see history of commits....most recent commits are shown first
+
+git diff as we have seen before...first id will be considered original and second argument will be as newer version
+
+git checkout sampleID is the command to checkout previous versions of code
+to reset the code to latest update again just apply git checkout latestSampleID
+
