@@ -7,6 +7,10 @@ git status to know the status of repo
 git repo works like smthing this:
 
 
+
+Staging Area:
+
+
 working directory					staging area									git repo
 	
 here are the files in				it is stage in b/w repo and working directory					here files are stored after commits are done
