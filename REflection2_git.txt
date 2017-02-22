@@ -45,3 +45,18 @@ branch gives an relaxation u to work on additional features while keeping main p
 
 when we go to a earlier commit we get a detached head message...that suggets us to creat a branch instead beacause any changes made on that commit will not be included in the main nd hence
 can not be spotted further so its better to mke a new branch
+
+Merging two branches:
+
+git merge branch1_name branch2_name
+
+git merges as per the rule that it keeps those changes in file that were added in any branch and along with not deleted by any branch...if any branches delete a part of code that will not be in the final file 
+
+and after merging we can delete the branch because we dont need that anymore because all the commits of that branch can be reached by master branch itself 
+and also when we delete a branch we actually delete the lable not the commits made by that
+we can delete the brach by this command: git branch -d branch_name
+
+when we see git log we will see all the commits made by either master branch or the other branch in order of the time in which they were commited
+
+if we want to see the changes commited by a commit and we r not sure which commit is the actual parent of that commit then we can do that by this commad
+git show commitID
