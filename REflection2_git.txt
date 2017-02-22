@@ -23,6 +23,9 @@ git diff commit1 commit2:	difference b/w commit1 and commit 2
 git reset -- hard	: 	makes working directory and staging area same
 
 
+BRANCH THEORY:
+
+
 if we make several changes then take a break and in case we don't remember the changes we did we can use git diff then for doing one logical chnage per commit
 we add only one file to staging area (not all together) commit that and do another
 
