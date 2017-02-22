@@ -7,10 +7,6 @@ git status to know the status of repo
 git repo works like smthing this:
 
 
-
-Staging Area:
-
-
 working directory					staging area									git repo
 	
 here are the files in				it is stage in b/w repo and working directory					here files are stored after commits are done
@@ -25,6 +21,9 @@ git diff --staged	:	difference b/w staging area and most recent commit
 git diff commit1 commit2:	difference b/w commit1 and commit 2
 
 git reset -- hard	: 	makes working directory and staging area same
+
+
+BRANCH THEORY:
 
 
 if we make several changes then take a break and in case we don't remember the changes we did we can use git diff then for doing one logical chnage per commit
