@@ -1,0 +1,10 @@
+in gitHub we can not access directly the repositories so suppose a empty repository in a known location and we can sync data from our local system to gitHub
+
+It does not sync automatically because doing it will lead to making available a updated version publically before its completely ready so we have to do it manually
+
+the repositories which can receive /send data are called remote repo better called as remote(like the repository at gitHub server is a remote)
+
+now we can sync data by pushing or pulling data
+
+transfer of data is done in form of commit histories and if a commit is already present in remote then it will not be sent again
+but transferin commits one by one will be quite tidious to do so we transfer in terms of branches that transfers all the commit history that reduces the work to do in a really tremendous way
