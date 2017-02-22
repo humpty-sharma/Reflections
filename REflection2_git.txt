@@ -12,3 +12,28 @@ working directory					staging area									git repo
 here are the files in				it is stage in b/w repo and working directory					here files are stored after commits are done
 coneventional way as we knw			here we add files first and added files makes one 
 						commit together	
+
+
+git diff 		:    	difference b/w staging area and working directory	
+
+git diff --staged	:	difference b/w staging area and most recent commit
+
+git diff commit1 commit2:	difference b/w commit1 and commit 2
+
+git reset -- hard	: 	makes working directory and staging area same
+
+
+if we make several changes then take a break and in case we don't remember the changes we did we can use git diff then for doing one logical chnage per commit
+we add only one file to staging area (not all together) commit that and do another
+
+git branch		:  	to show the current branch along with all the other branches
+git branch argument	:	to create a new branch
+git checkout branch_name:	to change head to other branch/to change current branch
+
+
+branch can be used in situations like when you want to keep ur original version as well as make some experiments of different geners so branches can be helpful in that scenario
+
+branch gives an relaxation u to work on additional features while keeping main project as it is. It also provides u chance to change context,fix bug etc.
+
+when we go to a earlier commit we get a detached head message...that suggets us to creat a branch instead beacause any changes made on that commit will not be included in the main nd hence
+can not be spotted further so its better to mke a new branch
